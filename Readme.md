@@ -31,7 +31,7 @@ A simple chat application built using socket.io,express JS,node js
 
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone https://github.com/HardikKumariscoding/101410993_lab_test1_chat_app
 
 2.   Install dependencies:
 
