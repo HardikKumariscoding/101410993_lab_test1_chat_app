@@ -1,0 +1,290 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------- sign up css starts------------------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#signupForm {
+    display: flex;
+    flex-direction: column;
+    width: 19vw;
+    height: 65vh;
+    background-color: #444;
+    margin: auto;
+    border-radius: 9px;
+    box-shadow: 3px 3px 4px #000, -3px -2px 4px #288f8f;
+    border: unset;
+    transform: translate(-1vw, 14vh);
+    opacity: 0.9;
+}
+
+#signupForm .form-control {
+    background-color: #3a3a3a !important;
+    border: 1px solid rgb(74, 73, 73) !important;
+    border-radius: 4px !important;
+    padding: 1vw !important;
+    color: #848484 !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: translate(0vw,6vh);
+}
+
+#signupForm .btn {
+    width: 6vw !important;
+  height: 5vh !important;
+  transform: translate(5.9vw, 11vh);
+  box-shadow: 3px 3px 4px #000, -3px -2px 4px #288f8f;
+  border: unset !important;
+  background-color: #1f1e1e !important;
+  border-radius: 12px !important;
+  color: #848484 !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+}
+
+#signupForm .btn:active {
+    box-shadow: inset 3px 3px 4px #000, inset -3px -2px 4px #288f8f;
+    color: #00d7d7 !important;
+    font-size: small !important;
+}
+
+.text-center {
+    text-align: center !important;
+    transform: translate(-1.2vw, 6vh) !important;
+    font-size: 3.2vw !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #848484 !important;
+}
+
+.Alreadyhaveacc {
+    color: #848484 !important;
+  width: 15vw;
+  height: 2vh;
+  text-align: center;
+  transform: translate(2vw, 7vh);
+  font-size: 1.1vw !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Alreadyhaveacc a {
+    color: aqua !important;
+    cursor: pointer;
+}
+
+body {
+    background-color: #444 !important;
+}
+
+.card{
+    border: unset !important;
+}
+
+  /* ----------------SIGN UP CSS ENDS----------------------------------- */
+
+
+  /*------------------Login CSS STARTS-------------------------------*/
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    width: 19vw;
+    height: 50vh;
+    background-color: #444;
+    margin: auto;
+    border-radius: 9px;
+    box-shadow: 3px 3px 4px #000, -3px -2px 4px #288f8f;
+    border: unset;
+    transform: translateY(8vh);
+    opacity: 0.9;
+}
+
+#loginForm .form-control {
+    background-color: #3a3a3a !important;
+    border: 1px solid rgb(74, 73, 73) !important;
+    border-radius: 4px !important;
+    padding: 1vw !important;
+    color: #848484 !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#loginForm .btn {
+    width: 6vw !important;
+  height: 5vh !important;
+  transform: translate(6vw,3vh);
+  box-shadow: 3px 3px 4px #000, -3px -2px 4px #288f8f;
+  border: unset !important;
+  background-color: #1f1e1e !important;
+  border-radius: 12px !important;
+  color: #848484 !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+}
+
+#loginForm .btn:active {
+    box-shadow: inset 3px 3px 4px #000, inset -3px -2px 4px #288f8f;
+    color: #00d7d7 !important;
+    font-size: small !important;
+}
+
+.text-center {
+    text-align: center !important;
+    transform: translateY(4vh);
+    font-size: 1.5vw !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #848484 !important;
+}
+
+.text-center a {
+    color: aqua !important;
+    cursor: pointer;
+}
+
+body {
+    background-color: #444 !important;
+}
+
+.card{
+    background-color: #444 !important;
+}
+
+.donthaveacc{
+    text-align: center !important;
+    transform: translate(0vw,-3vh);
+    font-size: 1.1vw !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #848484 !important;
+}
+
+.donthaveacc a{
+    color: #00d7d7;
+}
+.toptext{
+    text-align: center !important;
+    /* transform: translate(0vw,-3vh); */
+    font-size: 5vw !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #848484 !important;
+}
+
+  /*------------------Login CSS ENDS-------------------------------*/
+
+
+    /*------------------CHAT CSS STARTS-------------------------------*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #444 !important;
+    color: #848484 !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2.text-center {
+    font-size: 3vw !important;
+    text-align: center;
+    color: #848484;
+}
+
+#userList {
+    max-height: 250px;
+  overflow-y: scroll;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+  align-items: center;
+}
+
+.chat-box {
+    background-color: #3a3a3a;
+    color: #848484;
+    border-radius: 10px;
+    height: 300px;
+    overflow-y: scroll;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #555 !important;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+#messageInput {
+    background-color: #3a3a3a !important; 
+    border: 1px solid #555;
+    color: #848484;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#sendMessage {
+    box-shadow: 3px 3px 4px #000, -3px -2px 4px #288f8f;
+  border: unset !important;
+  background-color: #1f1e1e !important;
+  border-radius: 12px !important;
+  color: #848484 !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+}
+
+#sendMessage:active{
+    box-shadow: inset 3px 3px 4px #000, inset -3px -2px 4px #288f8f;
+    font-size: smaller;
+
+}
+
+#sendMessage:hover {
+    background-color: #333;
+    color: #00d7d7;
+}
+
+#typingIndicator {
+    font-size: 0.9vw;
+    color: #848484 !important;
+
+}
+
+.form-select {
+    background-color: #0e1a17db !important;
+  border: 1px solid #555 !important;
+  color: #848484 !important;
+  margin-bottom: 20px;
+}
+
+#recipientRadios label {
+    color: #848484;
+    margin-left: 10px;
+}
+
+#logout {
+    box-shadow: 3px 3px 4px #000, -3px -2px 4px #8f2828;
+  border: unset !important;
+  background-color: #1f1e1e !important;
+  border-radius: 12px !important;
+  color: #848484 !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+    margin-top: 18px;
+    width: 100%;
+}
+
+#logout:active{
+    box-shadow:inset 3px 3px 4px #000,inset -3px -2px 4px #8f2828;
+}
